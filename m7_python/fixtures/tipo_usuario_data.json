@@ -1,0 +1,16 @@
+[
+    {
+        "model": "m7_python.tipo_user",
+        "pk": 1,
+        "fields": {
+            "tipo_user": "Arrendador"
+        }
+    },
+    {
+        "model": "m7_python.tipo_user",
+        "pk": 2,
+        "fields": {
+            "tipo_user": "Arrendatario"
+        }
+    }
+]

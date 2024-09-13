@@ -1,0 +1,15 @@
+{% extends 'index.html' %}
+{% block 'content' %}
+<div class="container d-flex justify-content-center align-items-center">
+    <div class="card" style="width: 28rem;">
+        <div class="card-body">
+            <h1 class="pb-3 text-center">Tipo de usuario</h1>
+            <form method='POST' action="{% url 'register' %}">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button class="btn btn-outline-primary w-100">Registrar</button>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

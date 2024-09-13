@@ -1,0 +1,43 @@
+<!-- Filtro propiedades -->
+{% extends 'index.html' %}
+{% block 'content' %}
+<div class="container mt-4">
+    <div class="bg-primary border custom-border-danger p-4 d-flex align-items-center gap-3 rounded-2">
+        <div class="flex-grow-1">
+            <select id="tipo_usuario" class="form-select">
+                <option value="">TIPO USUARIO</option>
+                {% for tipo_user in tipo_users %}
+                    <option value="{{ tipo_user.id }}">{{ tipo_user.tipo_user }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="flex-grow-1">
+            <select id="tipo_inmueble" class="form-select">
+                <option value="">TIPO PROPIEDAD</option>
+                {% for tipo_inmueble in tipo_inmuebles %}
+                    <option value="{{ tipo_inmueble.id }}">{{ tipo_inmueble.tipo_inmueble }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="flex-grow-1">
+            <select id="region_cod" class="form-select">
+                <option value="">REGIÓN</option>
+                {% for region in regions %}
+                    <option value="{{ region.id }}">{{ region.region }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="flex-grow-1">
+            <select id="comuna_cod" class="form-select">
+                <option value="">COMUNA</option>
+                {% for comuna in comunas %}
+                    <option value="{{ comuna.id }}" data-region="{{ comuna.region.id }}">{{ comuna.comuna }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div>
+            <button class="btn btn-outline-light">BUSCAR</button>
+        </div>
+    </div>
+</div>
+{% endblock %}

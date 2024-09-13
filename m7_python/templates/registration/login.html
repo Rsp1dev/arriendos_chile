@@ -1,0 +1,18 @@
+{% extends 'index.html' %}
+{% block 'content' %}
+<div class="container d-flex align-items-center justify-content-center mt-3">
+    {% if form.errors %}
+    <p>Tus credenciales no concuerdan. Por favor, intenta de nuevo</p>
+    {% endif %}
+    <div class="card shadow-sm" style="width: 100%; max-width: 400px;">
+        <h1 class="text-center pt-3">Inicio sesión</h1>
+        <div class="card-body">
+            <form method="POST" action="{% url 'login' %}">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button class="btn btn-outline-primary w-100">Ingresa</button>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

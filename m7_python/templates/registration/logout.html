@@ -1,0 +1,13 @@
+{% extends 'index.html' %}
+
+{% block 'content' %}
+<div class="text-center">
+    <form method="POST" action="{% url 'logout' %}">
+        {% csrf_token %}
+        <button type="submit">Salir</button>
+    </form>
+</div>
+
+<p class="lato-black-italic display-5 pt-3">¡Sesión finalizada!</p>
+
+{% endblock %}

@@ -1,0 +1,114 @@
+[
+    {
+        "pk": 1,
+        "model": "m7_python.region",
+        "fields": {
+            "region": "Arica y Parinacota"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "m7_python.region",
+        "fields": {
+            "region": "Tarapacá"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "m7_python.region",
+        "fields": {
+            "region": "Antofagasta"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "m7_python.region",
+        "fields": {
+            "region": "Atacama"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "m7_python.region",
+        "fields": {
+            "region": "Coquimbo"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "m7_python.region",
+        "fields": {
+            "region": "Valparaíso"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "m7_python.region",
+        "fields": {
+            "region": "Región del Libertador Gral. Bernardo O’Higgins"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "m7_python.region",
+        "fields": {
+            "region": "Región del Maule"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "m7_python.region",
+        "fields": {
+            "region": "Región de Ñuble"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "m7_python.region",
+        "fields": {
+            "region": "Región del Biobío"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "m7_python.region",
+        "fields": {
+            "region": "Región de la Araucanía"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "m7_python.region",
+        "fields": {
+            "region": "Región de Los Ríos"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "m7_python.region",
+        "fields": {
+            "region": "Región de Los Lagos"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "m7_python.region",
+        "fields": {
+            "region": "Región Aisén del Gral. Carlos Ibáñez del Campo"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "m7_python.region",
+        "fields": {
+            "region": "Región de Magallanes y de la Antártica Chilena"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "m7_python.region",
+        "fields": {
+            "region": "Región Metropolitana de Santiago"
+        }
+    }
+]

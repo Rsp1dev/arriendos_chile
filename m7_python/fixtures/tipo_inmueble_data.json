@@ -1,0 +1,38 @@
+[
+    {
+        "model": "m7_python.tipo_inmueble",
+        "pk": 1,
+        "fields": {
+            "tipo_inmueble": "Casa"
+        }
+    },
+    {
+        "model": "m7_python.tipo_inmueble",
+        "pk": 2,
+        "fields": {
+            "tipo_inmueble": "Departamento"
+        }
+    },
+    {
+        "model": "m7_python.tipo_inmueble",
+        "pk": 3,
+        "fields": {
+            "tipo_inmueble": "Parcela"
+        }
+    },
+    {
+        "model": "m7_python.tipo_inmueble",
+        "pk": 4,
+        "fields": {
+            "tipo_inmueble": "Estacionamiento"
+        }
+    },
+    {
+        "model": "m7_python.tipo_inmueble",
+        "pk": 5,
+        "fields": {
+            "tipo_inmueble": "Otro"
+        }
+    }
+]
+    
