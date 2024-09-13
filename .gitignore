@@ -1,1 +1,5 @@
+# Ignore README.txt file
 README.txt
+
+# Ignore all text files
+*.txt
